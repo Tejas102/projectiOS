@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96DB507D21ACC573006C9F98 /* scoreboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB507C21ACC573006C9F98 /* scoreboardViewController.swift */; };
+		96DB508021ACC5C4006C9F98 /* selectpokemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB507F21ACC5C4006C9F98 /* selectpokemonViewController.swift */; };
 		96DC5D6F21AC2C8000789723 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DC5D6E21AC2C8000789723 /* AppDelegate.swift */; };
 		96DC5D7121AC2C8000789723 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DC5D7021AC2C8000789723 /* ViewController.swift */; };
 		96DC5D7421AC2C8000789723 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DC5D7221AC2C8000789723 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		96DB507C21ACC573006C9F98 /* scoreboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scoreboardViewController.swift; sourceTree = "<group>"; };
+		96DB507F21ACC5C4006C9F98 /* selectpokemonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectpokemonViewController.swift; sourceTree = "<group>"; };
 		96DC5D6B21AC2C8000789723 /* projectiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projectiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DC5D6E21AC2C8000789723 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96DC5D7021AC2C8000789723 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +41,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		96DB507E21ACC57A006C9F98 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				96DC5D7021AC2C8000789723 /* ViewController.swift */,
+				96DB507C21ACC573006C9F98 /* scoreboardViewController.swift */,
+				96DB507F21ACC5C4006C9F98 /* selectpokemonViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		96DC5D6221AC2C8000789723 = {
 			isa = PBXGroup;
 			children = (
@@ -56,8 +70,8 @@
 		96DC5D6D21AC2C8000789723 /* projectiOS */ = {
 			isa = PBXGroup;
 			children = (
+				96DB507E21ACC57A006C9F98 /* View Controllers */,
 				96DC5D6E21AC2C8000789723 /* AppDelegate.swift */,
-				96DC5D7021AC2C8000789723 /* ViewController.swift */,
 				96DC5D7221AC2C8000789723 /* Main.storyboard */,
 				96DC5D7821AC2C8100789723 /* Assets.xcassets */,
 				96DC5D7A21AC2C8100789723 /* LaunchScreen.storyboard */,
@@ -138,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96DB507D21ACC573006C9F98 /* scoreboardViewController.swift in Sources */,
 				96DC5D7121AC2C8000789723 /* ViewController.swift in Sources */,
 				96DC5D6F21AC2C8000789723 /* AppDelegate.swift in Sources */,
+				96DB508021ACC5C4006C9F98 /* selectpokemonViewController.swift in Sources */,
 				96DC5D7721AC2C8000789723 /* projectiOS.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
