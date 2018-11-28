@@ -15,6 +15,9 @@ class selectpokemonViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    @IBAction func poki1button(_ sender: Any) {
+        performSegue(withIdentifier: "selecttomap", sender: self)
+    }
     
 
     /*

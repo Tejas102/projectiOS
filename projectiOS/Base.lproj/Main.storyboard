@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="B7S-GP-YRd">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Selectpokemon View Controller-->
         <scene sceneID="CgB-uI-lJQ">
             <objects>
-                <viewController id="usV-3I-Jpb" sceneMemberID="viewController">
+                <viewController id="usV-3I-Jpb" customClass="selectpokemonViewController" customModule="projectiOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eBe-1A-DgH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -29,6 +29,9 @@
                                 <rect key="frame" x="150" y="212" width="75" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Pokemon 1"/>
+                                <connections>
+                                    <action selector="poki1button:" destination="usV-3I-Jpb" eventType="touchUpInside" id="9C1-iO-AGI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thy-aB-d1x">
                                 <rect key="frame" x="149" y="283" width="77" height="30"/>
@@ -49,6 +52,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="zSl-9c-ZLe"/>
                     </view>
+                    <connections>
+                        <segue destination="B7S-GP-YRd" kind="show" identifier="selecttomap" id="kMB-lw-thT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OU0-75-x2i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -66,6 +72,9 @@
                                 <rect key="frame" x="148" y="189" width="78" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Start Game"/>
+                                <connections>
+                                    <action selector="startaction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Dz-AY-guZ"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Welcome to Pokemon Game" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="O7L-II-ZtM">
                                 <rect key="frame" x="67" y="78" width="240" height="61"/>
@@ -88,6 +97,9 @@
                                 <rect key="frame" x="148" y="339" width="80" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Scoreboard"/>
+                                <connections>
+                                    <action selector="scoreaction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Os-ot-Req"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

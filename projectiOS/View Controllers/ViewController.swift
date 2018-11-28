@@ -14,7 +14,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
+    @IBAction func startaction(_ sender: Any) {
+        performSegue(withIdentifier: "maintoselect", sender: self)
+    }
+    
+    @IBAction func scoreaction(_ sender: Any) {
+        performSegue(withIdentifier: "maintoscore", sender: self)
+    }
+    
 
 }
 
