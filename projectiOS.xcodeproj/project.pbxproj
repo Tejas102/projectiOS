@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		960055B621AE11E400B2E006 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960055B521AE11E400B2E006 /* MapViewController.swift */; };
+		96B3082F21AE164A00A47713 /* aboutusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B3082E21AE164A00A47713 /* aboutusViewController.swift */; };
 		96DB507D21ACC573006C9F98 /* scoreboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB507C21ACC573006C9F98 /* scoreboardViewController.swift */; };
 		96DB508021ACC5C4006C9F98 /* selectpokemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB507F21ACC5C4006C9F98 /* selectpokemonViewController.swift */; };
 		96DC5D6F21AC2C8000789723 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DC5D6E21AC2C8000789723 /* AppDelegate.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		960055B521AE11E400B2E006 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		96B3082E21AE164A00A47713 /* aboutusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutusViewController.swift; sourceTree = "<group>"; };
 		96DB507C21ACC573006C9F98 /* scoreboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scoreboardViewController.swift; sourceTree = "<group>"; };
 		96DB507F21ACC5C4006C9F98 /* selectpokemonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectpokemonViewController.swift; sourceTree = "<group>"; };
 		96DC5D6B21AC2C8000789723 /* projectiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projectiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +52,7 @@
 				96DB507C21ACC573006C9F98 /* scoreboardViewController.swift */,
 				960055B521AE11E400B2E006 /* MapViewController.swift */,
 				96DB507F21ACC5C4006C9F98 /* selectpokemonViewController.swift */,
+				96B3082E21AE164A00A47713 /* aboutusViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				96DC5D6F21AC2C8000789723 /* AppDelegate.swift in Sources */,
 				96DB508021ACC5C4006C9F98 /* selectpokemonViewController.swift in Sources */,
 				96DC5D7721AC2C8000789723 /* projectiOS.xcdatamodeld in Sources */,
+				96B3082F21AE164A00A47713 /* aboutusViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
